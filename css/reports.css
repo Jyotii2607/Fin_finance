@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F6FA;
+    color: #1B263B;
+  }
+  
+ /* Header Styling */
+header {
+  background-color: #1B263B;
+  padding: 10px 20px;
+}
+
+/* Navbar Container */
+nav {
+  display: flex; /* Enable Flexbox */
+  align-items: center; /* Vertically align items */
+  justify-content: space-between; /* Push logo to the left, menu to the right */
+}
+
+/* Logo Styling */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #F9A825;
+}
+
+/* Navigation Menu Styling */
+.nav-menu {
+  display: flex; /* Arrange menu items horizontally */
+  list-style: none;
+  margin: 0;
+ 
+  gap: 20px; /* Space between menu items */
+}
+.nav-bar{
+  margin-left: end;
+  padding-left: 900px;
+}
+.nav-menu li a {
+  text-decoration: none;
+  color: #F9A825;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover,
+.nav-menu li a.active {
+  color: #FFFFFF;
+}
+
+  /* Reports Overview */
+  .reports-overview {
+    text-align: center;
+    padding: 30px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reports-overview h1 {
+    font-size: 2.5rem;
+  }
+  
+  .reports-overview p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  /* Charts Section */
+  .charts {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 20px;
+  }
+  
+  .chart-container {
+    width: 45%;
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-container h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Table Section */
+  .table-section {
+    padding: 20px;
+    background: #FFFFFF;
+    margin: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  thead th {
+    background: #1B263B;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background: #F9F9F9;
+  }
+  
+  tbody td {
+    padding: 10px;
+  }
+  

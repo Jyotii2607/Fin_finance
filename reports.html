@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reports - Fin Finance</title>
+  <link rel="stylesheet" href="css/reports.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Fin Finance</div>
+     <div class="nav-bar">
+        <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="reports.html" class="active">Reports</a></li>
+        <li><a href="inventory.html">Inventory</a></li>
+        <li><a href="transactions.html">Transactions</a></li>
+        <li><a href="settings.html">Settings</a></li>
+      </ul></div> 
+    </nav>
+  </header>
+
+  <main>
+    <section class="reports-overview">
+      <h1>Financial Reports</h1>
+      <p>Gain insights into your store's performance with detailed financial and sales reports.</p>
+    </section>
+
+    <section class="charts">
+      <div class="chart-container">
+        <h2>Monthly Revenue</h2>
+        <canvas id="revenueChart"></canvas>
+      </div>
+      <div class="chart-container">
+        <h2>Expense Breakdown</h2>
+        <canvas id="expenseChart"></canvas>
+      </div>
+    </section>
+
+    <section class="table-section">
+      <h2>Top Selling Products</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Product Name</th>
+            <th>Category</th>
+            <th>Units Sold</th>
+            <th>Total Revenue</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Silk Saree</td>
+            <td>Clothing</td>
+            <td>120</td>
+            <td>₹240,000</td>
+          </tr>
+          <tr>
+            <td>Leather Wallet</td>
+            <td>Accessories</td>
+            <td>85</td>
+            <td>₹85,000</td>
+          </tr>
+          <tr>
+            <td>Gold Necklace</td>
+            <td>Jewelry</td>
+            <td>40</td>
+            <td>₹500,000</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Fin Finance. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/reports.js"></script>
+</body>
+</html>

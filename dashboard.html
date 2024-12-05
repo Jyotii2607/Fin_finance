@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+<body>
+   <header>
+        <nav>
+          <div class="logo">fin finance</div>
+         <div class="nav-bar"> <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html"class="active">Dashboard</a></li>
+            <li><a href="reports.html">Reports</a></li>
+            <li><a href="inventory.html" >Inventory</a></li>
+            <li><a href="transactions.html">Transactions</a></li>
+            <li><a href="settings.html">Settings</a></li></div>
+          </ul></div> 
+        </nav>
+      </header> 
+  <main>
+    <h1>Dashboard</h1>
+    <div class="stats">
+      <div class="card">
+        <h3>Total Income</h3>
+        <p>₹5,00,000</p>
+      </div>
+      <div class="card">
+        <h3>Total Expenses</h3>
+        <p>₹2,00,000</p>
+      </div>
+    </div>
+    <div id="revenue-chart"></div>
+  </main>
+
+  <footer>
+    <p>© 2024 Fin Finance. All Rights Reserved.</p>
+  </footer>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

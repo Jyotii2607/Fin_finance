@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventory - Fin Finance</title>
+  <link rel="stylesheet" href="css/inventory.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Fin Finance</div>
+     <div class="nav-bar"> <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="reports.html">Reports</a></li>
+        <li><a href="inventory.html" class="active">Inventory</a></li>
+        <li><a href="transactions.html">Transactions</a></li>
+        <li><a href="settings.html">Settings</a></li></div>
+      </ul></div> 
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Header -->
+    <section class="inventory-overview">
+      <h1>Inventory Management</h1>
+      <p>Monitor stock levels and manage your inventory efficiently.</p>
+    </section>
+
+    <!-- Chart Section -->
+    <section class="charts">
+      <div class="chart-container">
+        <h2>Stock Levels</h2>
+        <canvas id="stockChart"></canvas>
+      </div>
+    </section>
+
+    <!-- Inventory Table -->
+    <section class="table-section">
+      <h2>Inventory Table</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Category</th>
+            <th>Stock</th>
+            <th>Price (₹)</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Silk Saree</td>
+            <td>Clothing</td>
+            <td>50</td>
+            <td>₹4,800</td>
+            <td><button class="edit-btn">Edit</button> <button class="delete-btn">Delete</button></td>
+          </tr>
+          <tr>
+            <td>Leather Wallet</td>
+            <td>Accessories</td>
+            <td>20</td>
+            <td>₹1,200</td>
+            <td><button class="edit-btn">Edit</button> <button class="delete-btn">Delete</button></td>
+          </tr>
+          <tr>
+            <td>Gold Necklace</td>
+            <td>Jewelry</td>
+            <td>15</td>
+            <td>₹50,000</td>
+            <td><button class="edit-btn">Edit</button> <button class="delete-btn">Delete</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Fin Finance. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/inventory.js"></script>
+</body>
+</html>

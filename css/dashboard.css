@@ -1,0 +1,70 @@
+.stats {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
+  #revenue-chart {
+    margin: 40px auto;
+    max-width: 80%;
+    height: 400px;
+  }
+ /* Header Styling */
+header {
+  background-color: #1B263B;
+  padding: 10px 20px;
+}
+
+/* Navbar Container */
+nav {
+  display: flex; /* Enable Flexbox */
+  align-items: center; /* Vertically align items */
+  justify-content: space-between; /* Push logo to the left, menu to the right */
+}
+
+/* Logo Styling */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #F9A825;
+}
+
+/* Navigation Menu Styling */
+.nav-menu {
+  display: flex; /* Arrange menu items horizontally */
+  list-style: none;
+  margin: 0;
+ 
+  gap: 20px; /* Space between menu items */
+}
+.nav-bar{
+  margin-left: end;
+  padding-left: 900px;
+}
+.nav-menu li a {
+  text-decoration: none;
+  color: #F9A825;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover,
+.nav-menu li a.active {
+  color: #FFFFFF;
+}
+
+  

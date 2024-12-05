@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings - Fin Finance</title>
+  <link rel="stylesheet" href="css/settings.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Fin Finance</div>
+     <div class="nav-bar"> <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="reports.html">Reports</a></li>
+        <li><a href="inventory.html">Inventory</a></li>
+        <li><a href="transactions.html">Transactions</a></li>
+        <li><a href="settings.html" class="active">Settings</a></li>
+      </ul></div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="settings-overview">
+      <h1>Settings</h1>
+      <p>Manage your account, business details, and preferences.</p>
+    </section>
+
+    <section class="settings-form">
+      <h2>Update Your Settings</h2>
+      <form id="settingsForm">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter your username" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email address" required>
+        </div>
+        <div class="form-group">
+          <label for="businessName">Business Name</label>
+          <input type="text" id="businessName" placeholder="Enter your business name" required>
+        </div>
+        <div class="form-group">
+          <label for="currency">Preferred Currency</label>
+          <select id="currency" required>
+            <option value="INR">INR (₹)</option>
+            <option value="USD">USD ($)</option>
+            <option value="EUR">EUR (€)</option>
+          </select>
+        </div>
+        <button type="submit" class="save-button">Save Changes</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Fin Finance. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/settings.js"></script>
+</body>
+</html>
